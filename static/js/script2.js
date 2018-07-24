@@ -63,17 +63,11 @@ $(window).on("load", function() {
     $(".open-menu").on("click", function(){
       $(".responsive-mobile-menu").addClass("active");
       $(this).parent().addClass("active");
-	  
-	  $(".header-bar").hide();
-	  
     });
 
     $(".close-menu, html").on("click", function(){
       $(".responsive-mobile-menu").removeClass("active");
       $(this).parent().removeClass("active");
-	  
-	  $(".header-bar").show();
-	  
     });
 
     $(".open-menu, .responsive-mobile-menu").on("click", function(e){
